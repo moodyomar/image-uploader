@@ -1,0 +1,81 @@
+*{
+    font-family: 'Poppins';
+}
+.ImageUploader{
+    width: 402px;
+    height: 469px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+p{
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #828282;
+}
+h2{
+font-weight: 400;
+font-size: 12px;
+letter-spacing: -0.035em;
+color: #BDBDBD;
+}
+
+.btn{
+    position: relative;
+    width: 101px;
+    height: 31.98px;
+    background-color: #2F80ED;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    /* overflow: hidden;  */
+  }
+  
+  .btn input[type = "file"]{
+    cursor: pointer;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    transform: scale(3);
+    opacity: 0;
+  }
+  .btn:hover{
+    background-color: #134d9a;
+  }
+img{
+width: 114.13px;
+height: 88.24px;
+margin-bottom: 20px;
+}
+.drop-zone{
+width: 338px;
+height: 218.9px;
+background: #F6F8FB;
+border: 2px dashed #97BEF4;
+box-sizing: border-box;
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
