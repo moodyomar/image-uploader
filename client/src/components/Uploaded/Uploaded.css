@@ -1,0 +1,56 @@
+.Uploaded{
+    width: 400.36px;
+    height: 454.96px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+
+}
+
+.Uploaded input{
+    width: 338px;
+    height: 34px;
+    background: #F6F8FB;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.Uploaded button{
+    width: 74px;
+    height: 30px;
+    background: #2F80ED;
+    color: #fff;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    position: absolute;
+    right: 0;
+    margin-top: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.Uploaded button:active{
+    background: #1252a4;
+}
+.Uploaded img{
+width: 338px;
+height: 224.4px;
+border-radius: 12px;
+ }
+ .Uploaded h1{
+     margin-top: 15px;
+ }
+ .input{
+     display: flex;
+     position: absolute;
+ }
+ .input input{
+     padding-left: 10px;
+ }
+ .header-content{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }

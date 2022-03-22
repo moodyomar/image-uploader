@@ -17,6 +17,7 @@ h1{
     font-size: 18px;
     letter-spacing: -0.035em;
     color: #4F4F4F;
+    margin-bottom: 16px;
 }
 p{
     font-weight: 400;
@@ -24,12 +25,15 @@ p{
     text-align: center;
     letter-spacing: -0.035em;
     color: #828282;
+    margin-bottom: 30px;
 }
 h2{
 font-weight: 400;
 font-size: 12px;
 letter-spacing: -0.035em;
 color: #BDBDBD;
+margin-bottom: 22px;
+margin-top: 19px;
 }
 
 .btn{
@@ -56,6 +60,7 @@ color: #BDBDBD;
     position: absolute;
     left: 0%;
     top: 0%;
+    width: 100%;
     transform: scale(3);
     opacity: 0;
   }
@@ -78,4 +83,12 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+position: relative;
+}
+.drop-zone input{
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
 }
