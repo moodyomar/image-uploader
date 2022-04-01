@@ -58,8 +58,7 @@ const imageUploader = (
 </div>
 <h2>Or</h2>
       <button type = "button" className = "btn">Choose a file
-        <input type="file"
-         name='image' accept='images/*'/>
+        <input type="file" name='image' accept='images/*' onChange={e => setFile(e.target.files[0])} />
       </button>
     </div>
 
